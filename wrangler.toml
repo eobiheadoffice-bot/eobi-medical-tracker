@@ -1,0 +1,11 @@
+name = "eobi-medical-tracker"
+compatibility_date = "2026-09-30"
+main = "worker.js"
+
+[site]
+bucket = "./"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "eobi-db"
+database_id = "f1d0d1b1-d1ac-46dd-87e3-bbdde1da1264"
